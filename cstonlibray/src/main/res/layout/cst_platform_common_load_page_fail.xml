@@ -1,0 +1,79 @@
+<LinearLayout
+    android:id="@+id/common_load_page_fail_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/load_page_fail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/cst_platform_home_list_no_data_ico"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <platform.cston.explain.widget.LoadingView
+                android:id="@+id/loading_v"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:gravity="center"
+                android:textColor="#FF7d8487"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/load_fail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="页面加载失败,"
+                android:textColor="#FF7d8487"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/load_fail_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:text="重新加载"
+                android:textColor="#0A4EBE"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

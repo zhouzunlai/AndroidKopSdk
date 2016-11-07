@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共相关Id Begin -->
+
+    <!--头部Id-->
+    <item name="cst_header_back_btn" type="id" />
+    <item name="cst_platform_header_title" type="id" />
+    <item name="cst_header_right_btn" type="id" />
+    <item name="cst_platform_header_left_text" type="id" />
+    <item name="cst_platform_header_right_text" type="id" />
+
+    <!--列表右箭头Id-->
+
+    <!--列表分割线Id-->
+    <item name="list_line_short" type="id" />
+    <item name="list_line_long" type="id" />
+
+
+
+    <!-- 公共相关Id End -->
+</resources>

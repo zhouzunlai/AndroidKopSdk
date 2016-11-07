@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/cst_platform_widget_top_title" />
+
+    <TextView
+        android:id="@+id/tv_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cst_platform_white"
+        android:paddingBottom="10dp"
+        android:visibility="gone"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/car_exception_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#FF999999"
+        android:background="@color/cst_platform_dividing_line_2"/>
+
+    <ListView
+        android:id="@+id/lv_car_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

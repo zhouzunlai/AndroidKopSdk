@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:gravity="center|bottom"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/check_lin_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="一切正常，请放行出行"
+            android:textColor="@color/cst_platform_white"
+            android:textSize="14dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/cst_platform_detect_icon_arrow" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

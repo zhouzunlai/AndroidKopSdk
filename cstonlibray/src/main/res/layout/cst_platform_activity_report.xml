@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/car_report"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/cst_platform_widget_top_title"/>
+
+    <LinearLayout
+        style="@style/CstPlatformCommonTabLayoutStyle"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:id="@+id/cst_platform_report_day_btn"
+            style="@style/CstPlatformCommonTabButtonLeft">
+
+            <TextView
+                android:id="@+id/cst_platform_report_day_text"
+                style="@style/CstPlatformCommonTabText"
+                android:layout_height="29dp"
+                android:gravity="center"
+                android:text="@string/cst_platform_report_day"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cst_platform_report_mon_btn"
+            style="@style/CstPlatformCommonTabButtonMid">
+
+            <TextView
+                android:id="@+id/cst_platform_report_mon_text"
+                style="@style/CstPlatformCommonTabText"
+                android:layout_height="29dp"
+                android:gravity="center"
+                android:text="@string/cst_platform_report_month"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cst_platform_report_year_btn"
+            style="@style/CstPlatformCommonTabButtonRight">
+
+            <TextView
+                android:id="@+id/cst_platform_report_year_text"
+                style="@style/CstPlatformCommonTabText"
+                android:layout_height="29dp"
+                android:gravity="center"
+                android:text="@string/cst_platform_report_year"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/report_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>

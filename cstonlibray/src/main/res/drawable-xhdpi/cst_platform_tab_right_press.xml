@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/cst_platform_white" />
+
+    <stroke
+        android:width="1px"
+        android:color="@color/cst_platform_white" />
+
+    <corners
+        android:bottomRightRadius="4dp"
+        android:topRightRadius="4dp" />
+
+</shape>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <platform.cston.explain.widget.refresh.PullToRefreshListView
+            android:id="@+id/report_lv"
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            ptr:ptrMode="both"/>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eaeaea"/>
+
+            <Button
+                android:id="@+id/report_picker_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:drawableLeft="@drawable/cst_platform_time_select"
+                android:drawablePadding="3dp"
+                android:textSize="14dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

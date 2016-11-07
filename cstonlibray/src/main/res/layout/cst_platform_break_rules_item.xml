@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/report_break_rules_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginRight="7.5dp"
+        android:background="@drawable/cst_paltform_break_rules_unhandle_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/report_break_rules_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="2016年07月15日 18：20"
+                android:textColor="#333333"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/report_break_rules_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cst_platform_report_right_arrow"
+                android:layout_marginRight="15dp"
+                />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/report_break_rules_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/cst_platform_place"
+                android:drawablePadding="5dp"
+                android:text="重庆市江北区观音桥-地铁站"
+                android:textColor="#666666"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/report_break_rules_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:text="机动车在设有禁止行车标志、标线的地点停放车辆或零时停车"
+                android:textColor="#999999"
+                android:textSize="14dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/report_break_rules_score_iv"
+                        android:src="@drawable/cst_platform_break_rules_score_handle"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/report_break_rules_score_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="3"
+                        android:textColor="#ff7c68"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:id="@+id/report_break_rules_expense_iv"
+                        android:src="@drawable/cst_platform_break_rules_expense_handle"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_marginLeft="50dp"/>
+
+                    <TextView
+                        android:id="@+id/report_break_rules_expense_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="200"
+                        android:textColor="#ff7c68"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/report_break_rules_ishandle_iv"
+                      android:background="@drawable/cst_platform_break_rules_unhandle"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"/>
+
+                    <TextView
+                        android:id="@+id/report_break_rule_ishandle_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="未处理"
+                        android:textColor="#ff7c68"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

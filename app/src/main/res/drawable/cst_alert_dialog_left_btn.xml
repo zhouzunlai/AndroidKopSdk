@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  CST.All Rights Reserved
+  ~
+  ~ @author:zhouzunlai
+  ~
+  ~ @date: 2016.5.7.
+  ~
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/cst_alert_left_btn_down" android:state_pressed="true"/>
+    <item android:drawable="@drawable/cst_alert_left_btn_up" android:state_pressed="false"/>
+
+</selector>

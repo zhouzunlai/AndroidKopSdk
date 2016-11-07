@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cst_platform_white"
+        android:orientation="vertical"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:id="@+id/tv_happen_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textColor="@color/cst_platform_gray_ae"
+            android:text="发生时间：2月24日 15点23"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_exception"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_kind_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="故障码"
+                android:textColor="@color/cst_platform_common_list_title_color"
+                android:textSize="16dp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/car_excaption_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:drawableRight="@drawable/cst_platform_right_arrow"
+                android:drawablePadding="5dp"
+                android:textColor="@color/cst_platform_common_list_title_color"
+                android:layout_marginRight="8dp"
+                android:textSize="16dp"
+                android:text="0233"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/car_exception_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:paddingBottom="14dp"
+            android:paddingRight="15dp"
+            android:paddingTop="2dp"
+            android:singleLine="false"
+            android:textColor="@color/cst_platform_gray_ae"
+            android:textSize="12dp" />
+
+        <View style="@style/CstPlatformBaseHorizontalLine" />
+
+
+        <TextView
+            android:id="@+id/tv_head_cause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cst_platform_query_normal"
+            android:drawablePadding="3dp"
+            android:paddingTop="14dp"
+            android:text="可能的原因分析"
+            android:textColor="@color/cst_platform_common_list_title_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/car_exception_cause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingBottom="14dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="24dp"
+            android:paddingTop="6dp"
+            android:singleLine="false"
+            android:textColor="#FF999999"
+            android:textSize="12dp" />
+
+        <View style="@style/CstPlatformBaseHorizontalLine" />
+
+        <TextView
+            android:id="@+id/tv_head_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cst_platform_icon_detection_error"
+            android:paddingTop="14dp"
+            android:drawablePadding="3dp"
+            android:text="可能导致的后果"
+            android:textColor="@color/cst_platform_common_list_title_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/car_exception_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingBottom="14dp"
+            android:paddingRight="15dp"
+            android:paddingTop="6dp"
+            android:layout_marginLeft="22dp"
+            android:singleLine="false"
+            android:textColor="#FF999999"
+            android:textSize="12dp" />
+
+        <View style="@style/CstPlatformBaseHorizontalLine" />
+
+        <TextView
+            android:id="@+id/tv_head_advice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cst_platform_icon_error_suggestion"
+            android:paddingTop="14dp"
+            android:drawablePadding="3dp"
+            android:text="我们的建议"
+            android:textColor="@color/cst_platform_common_list_title_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/car_exception_advice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:paddingBottom="14dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="22dp"
+            android:paddingTop="6dp"
+            android:singleLine="false"
+            android:textColor="#FF999999"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <View
+        style="@style/CstPlatformBaseHorizontalLine"
+        android:layout_marginTop="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <RelativeLayout
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6dp">
+
+            <View
+                android:id="@+id/item_vertical_line_v"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/cst_platform_break_rule_timeline_bg" />
+
+            <RelativeLayout
+                android:id="@+id/left_date_icon"
+                android:layout_width="40dp"
+                android:layout_height="43dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cst_platform_break_rule_time_bg">
+
+                <TextView
+                    android:id="@+id/time_year_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:textColor="#FF000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/time_day_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center_horizontal|top"
+                    android:textColor="#FF000000"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/left_normal_icon"
+                android:layout_width="14dp"
+                android:layout_height="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/cst_platform_track_normal_left_dot"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cst_platform_trace_list_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="17dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/cst_platform_ico_list_a" />
+
+                    <TextView
+                        android:id="@+id/begin_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="left"
+                        android:textColor="#40484b"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/begin_place_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="#40484b"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="32dp"
+                    android:background="#A3B4D2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="15dp"
+                        android:layout_height="17dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/cst_platform_ico_list_b" />
+
+                    <TextView
+                        android:id="@+id/end_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#40484b"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/end_place_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="#40484b"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp">
+
+                    <ImageView
+                        android:id="@+id/track_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@null"
+                        android:scaleType="fitXY" />
+
+                    <ProgressBar
+                        android:id="@+id/loading"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:indeterminate="true"
+                        android:indeterminateDrawable="@drawable/cst_platform_progress_loading_cicle"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/track_mile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="left"
+                            android:paddingLeft="6dp"
+                            android:singleLine="true"
+                            android:text="总里程：km"
+                            android:textColor="#FF7d8487"
+                            android:textSize="13dp" />
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/cst_platform_input_vertical_line" />
+
+                        <TextView
+                            android:id="@+id/driving_time"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="行驶时间：分钟"
+                            android:textColor="#FF7d8487"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/del_btn"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="13dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

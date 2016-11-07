@@ -1,0 +1,134 @@
+<resources>
+
+    <style name="cst_platform_Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 底部弹出框样式 -->
+    <style name="cst_platform_ActionSheetDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/cst_platform_ActionSheetDialogAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="cst_platform_ActionSheetDialogAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/cst_platform_action_sheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/cst_platform_action_sheet_dialog_out</item>
+    </style>
+
+
+    <style name="Cst_Platform_Style_Load_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CstPlatformActivityTopBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@color/cst_platform_top_title_bg</item>
+    </style>
+
+    <style name="CstPlatformActivityTopBackBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawableLeft">@drawable/cst_platform_head_back_btn_white_normal</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/cst_platform_select_color_header_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="CstPlatformActivityTopTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/cst_platform_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CstPlatformActivityTopRightImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:contentDescription">@string/cst_platform_content_desc_default</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="CstPlatformActivityTopLeftRightText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/cst_platform_select_color_header_text</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- 横线 -->
+    <style name="CstPlatformBaseHorizontalLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/cst_platform_dividing_line_2</item>
+    </style>
+
+
+
+    <!-- 通用选项卡左边 button布局样式 -->
+    <style name="CstPlatformCommonTabButtonLeft">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/cst_platform_switch_left_selector</item>
+    </style>
+
+    <style name="CstPlatformCommonTabText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/tabswitch_text_selector</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- 通用选项卡右边 button布局样式 -->
+    <style name="CstPlatformCommonTabButtonRight">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/cst_platform_switch_right_selector</item>
+    </style>
+
+
+    <style name="CstPlatformCommonTabButtonMid">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/cst_platform_switch_mid_selector</item>
+    </style>
+
+
+    <style name="CstPlatformCommonTabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">#333333</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF6D57"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:alpha="0.4"
+            android:text="@string/cst_platform_break_rule_unhandle"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/report_break_rules_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:alpha="0.4"
+                android:text="@string/cst_platform_break_rule_unit"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.2"
+                android:text="@string/cst_platform_break_rule_deduct_marks"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/report_break_rules_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="6"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:alpha="0.4"
+                android:text="@string/cst_platform_break_rule_score"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp"/>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:alpha="0.7"
+                android:background="#FFFFFF"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.2"
+                android:text="@string/cst_platform_break_rule_fine"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/report_break_rules_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="900"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:alpha="0.4"
+                android:text="@string/cst_platform_break_rule_rmb"
+                android:textColor="#FFFFFF"
+                android:textSize="11dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="@string/cst_platform_break_rule_helpful_hints"
+        android:textColor="#999999"
+        android:textSize="12dp"
+        />
+
+    <platform.cston.explain.widget.ListViewNoVScroll
+        android:id="@+id/report_break_rule_lv"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </ScrollView>
+</LinearLayout>

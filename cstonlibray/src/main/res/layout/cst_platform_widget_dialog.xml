@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="280dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cst_platform_alert_above_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/alert_dialog_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+        <platform.cston.explain.widget.CstJustifyTextView
+            android:id="@+id/alert_dialog_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#FF000000"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alert_dialog_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cst_platform_alert_dialog_long_btn"
+        android:gravity="center"
+        android:textColor="#FF157EFB"
+        android:textSize="17dp"/>
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_choose_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alert_dialog_left_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cst_platform_alert_dialog_left_btn"
+            android:textColor="#FF157EFB"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/alert_dialog_right_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cst_alert_dialog_right_btn"
+            android:textColor="#FF157EFB"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

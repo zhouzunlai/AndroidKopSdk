@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="cst_platform_indicator_right_padding">10dp</dimen>
+    <dimen name="cst_platform_indicator_corner_radius">12dp</dimen>
+    <dimen name="cst_platform_indicator_internal_padding">4dp</dimen>
+    <dimen name="cst_platform_fab_margin">16dp</dimen>
+</resources>

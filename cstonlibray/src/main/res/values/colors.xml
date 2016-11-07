@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共列表项属性颜色值-->
+    <color name="cst_platform_common_list_title_color">#FF333333</color>
+
+    <!-- 红色 -->
+    <color name="cst_platform_red_check">#FB675f</color>
+
+    <color name="common_item_press_down">#FFD9D9D9</color>
+    <color name="cst_platform_white">#FFFFFFFF</color>
+    <color name="cst_platform_white_fa">#fafafa</color>
+    <color name="cst_platform_header_text_white_color_pressed">#e6e6e6</color>
+
+    <color name="high_light">#FFFFFDE2</color>
+
+    <color name="cst_platform_top_title_bg">#FF333333</color>
+
+    <!--检测页面的error，warn，normal-->
+    <color name="cst_platform_detect_color_error">#fd675c</color>
+    <color name="cst_platform_detect_color_warn">#eeab55</color>
+    <color name="cst_platform_detect_color_normal">#97d069</color>
+
+    <!--通用分割线颜色-->
+    <color name="cst_platform_dividing_line">#FFC9C9CC</color>
+
+    <!-- APP Activity 通用背景颜色 -->
+    <color name="cst_platform_activity_bg">#FFF5F5F5</color>
+
+    <!-- 黑色 -->
+    <color name="cst_platform_black">#FF000000</color>
+
+    <color name="cst_platform_normal_text">#FFffcc00</color>
+    <color name="cst_platform_common_item_pressed_color">#F2F2F2</color>
+
+    <color name="cst_platform_car_detection_result_color">#c1272d</color>
+    <color name="cst_platform_gray_ae">#aeaeae</color>
+    <color name="cst_platform_letter_selector_color">#FFF7941D</color>
+    <color name="cst_platform_car_detection_normal_color">#43a119</color>
+    <color name="cst_platform_dividing_line_2">#FFE5E5E5</color>
+    <color name="cst_platform_black_35">#353535</color>
+    <color name="cst_platform_yellow">#FFE4E2B9</color>
+
+
+    <color name="cst_platform_month_top_bg">#eaa846</color>
+    <color name="cst_platform_year_top_bg">#fe8263</color>
+
+    <color name="cst_platform_break_rules_bg">#ff6d57</color>
+
+</resources>

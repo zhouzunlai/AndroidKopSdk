@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cst_alert_above_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/alert_dialog_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/cst_black"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/dialog_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/alert_dialog_appid_edtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="APPID"
+            android:textColor="@color/cst_black"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:id="@+id/alert_dialog_appsec_edtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="8dp"
+            android:hint="APPSEC"
+            android:textColor="@color/cst_black"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alert_dialog_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/cst_alert_dialog_long_btn"
+        android:gravity="center"
+        android:textColor="@color/cst_blue"
+        android:textSize="17dp"/>
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_choose_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alert_dialog_left_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cst_alert_dialog_left_btn"
+            android:text="确定"
+            android:textColor="@color/cst_blue"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/alert_dialog_right_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cst_alert_dialog_right_btn"
+            android:text="取消"
+            android:textColor="@color/cst_blue"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</LinearLayout>

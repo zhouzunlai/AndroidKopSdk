@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+//apply plugin: "sonar-runner"
+//
+//sonarRunner {
+//    toolVersion = '2.3' // default
+//
+//    sonarProperties {
+//        property "sonar.host.url", "http://172.16.1.63:9000"
+//        property "sonar.language", "java"
+//        property "sonar.sourceEncoding", "UTF-8"
+//        property "sonar.dynamicAnalysis", "reuseReports"
+//        property "sonar.sources", "${project.rootDir}/${project.name}/src/main/java"
+//        property "sonar.java.binaries", "${buildDir}/intermediates/classes"
+//        property 'sonar.jacoco.reportPath', "${buildDir}/jacoco/testReleaseUnitTest.exec"
+//        property "sonar.jacoco.itReportPath", "$buildDir/jacoco/testReleaseUnitTest.exec"
+//        property 'sonar.junit.reportsPath', "${buildDir}/test-results/release"
+//        property 'sonar.surefire.reportsPath', "${buildDir}/test-results/release"
+//        property "sonar.cobertura.reportPath", "${buildDir}/reports/coverage/debug/report.xml"
+//        property "sonar.core.codeCoveragePlugin", "cobertura"
+//    }
+//
+//    forkOptions {
+//        maxHeapSize = '2048m'
+//    }
+//}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 13
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+dependencies {
+    compile files('src/main/jniLibs/baidumapapi_base_v3_7_1.jar')
+    compile files('src/main/jniLibs/baidumapapi_cloud_v3_7_1.jar')
+    compile files('src/main/jniLibs/baidumapapi_map_v3_7_1.jar')
+    compile files('src/main/jniLibs/baidumapapi_radar_v3_7_1.jar')
+    compile files('src/main/jniLibs/baidumapapi_search_v3_7_1.jar')
+    compile files('src/main/jniLibs/baidumapapi_util_v3_7_1.jar')
+    compile files('src/main/jniLibs/locSDK_6.13.jar')
+    compile files('src/main/jniLibs/universal-image-loader-1.9.5.jar')
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile files('src/main/jniLibs/CstSDK_V1.4.1.1.jar')
+}

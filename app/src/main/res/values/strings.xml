@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SDK新版DEMO</string>
+    <string name="action_settings">注销授权</string>
+    <string name="action_auth_info">授权用户信息</string>
+    <string name="action_comfirm">确定</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="instructions_text">1、如果您已经有驾图账号，并绑定了车机，请直接点击授权登录，体验SDK核心功能。\n\n2、如果您还没有驾图账号，请先下载安装驾图APP，注册账号，添加车，绑定车机，再到demo中授权登陆，体验SDK核心功能。\n\n3、该应用为驾图demo应用，您也可以点击上方设置应用参数按钮，修改为您自己的应用信息后进行调试。\n\n4、了解更多信息，请访问 开放平台官网：open.kartor.cn</string>
+    <string name="dialog_content">您可以改为自己创建的应用证书信息，来进行调试。</string>
+    <string name="one_dialog_content">请输入您的电话号码。</string>
+</resources>

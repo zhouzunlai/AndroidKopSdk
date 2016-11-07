@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="3dp">
+
+        <RelativeLayout
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6dp">
+
+            <!--这个是垂直的长条-->
+            <View
+                android:id="@+id/item_vertical_line_v"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#e9e9e9" />
+
+            <View
+                android:id="@+id/left_date_icon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cst_platform_timer_shaft_gray">
+            </View>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent">
+            <TextView
+                android:id="@+id/day_event_time"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#999999"/>
+
+        <LinearLayout
+                      android:orientation="vertical"
+                      android:layout_margin="10dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/cst_platform_frame">
+
+
+                <TextView
+                    android:id="@+id/day_event_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15dp"
+                    android:textColor="#333333"/>
+
+
+            <TextView
+                android:id="@+id/day_event_place"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="13dp"
+                android:drawableLeft="@drawable/cst_platform_place"
+                android:drawablePadding="5dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<resources>
+    <string name="cst_platform_pull_to_refresh_pull_label">向下加载更多</string>
+    <string name="cst_platform_pull_to_refresh_release_label">松开加载更多</string>
+    <string name="cst_platform_pull_to_refresh_refreshing_label">加载中...</string>
+
+    <string name="cst_platform_pull_to_refresh_from_bottom_pull_label">向上拉加载更多</string>
+    <string name="cst_platform_pull_to_refresh_from_bottom_release_label">松开加载更多</string>
+    <string name="cst_platform_pull_to_refresh_from_bottom_refreshing_label">加载中...</string>
+
+
+    <string name="cst_platform_car_speed">%skm/h</string>
+    <string name="cst_platform_car_rpm">%srpm</string>
+    <string name="cst_platform_no_net">无网络</string>
+    <string name="cst_platform_no_nlocation">无法定位</string>
+
+    <string name="detection_fire_detail_tv">以下项需要在点火状态才能读取数值</string>
+    <string name="detection_fire_statue_tv">以下项为熄火前数据,如要查看当前数据请在点火情况下检测。</string>
+
+
+    <string name="cst_platform_detect_type_fault">车辆故障</string>
+    <string name="cst_platform_detect_type_battery">汽车蓄电池</string>
+    <string name="cst_platform_data_item_title_enc"> 冷却液温度</string>
+    <string name="cst_platform_detect_type_oil">剩余油量</string>
+
+
+    <string name="cst_platform_content_desc_default">image</string>
+
+    <string name="platform_back">  </string>
+    <string name="cst_platform_detect_title">检测</string>
+
+    <string name="cst_platform_detect_time_days">距离上次检测已过去%d天</string>
+    <string name="cst_platform_detect_time_hours">距离上次检测已过去%d小时</string>
+    <string name="cst_platform_detect_time_other">近24小时数据</string>
+
+    <string name="cst_platform_detect_normal_change_subtitle">一切正常，请放心出行！</string>
+    <string name="cst_platform_detect_deal_change_subtitle">警告！紧急事项，请及时处理！</string>
+    <string name="cst_platform_detect_notice_change_subtitle">注意！隐患事项，请关注！</string>
+
+    <string name="cst_platform_ok">确定</string>
+    <string name="cst_platform_request_outtime">请求超时，请检查你的网络环境</string>
+    <string name="cst_platform_current_value">当前值</string>
+    <string name="cst_platform_scope_cooling_fluid">正常范围 -40℃-110℃</string>
+    <string name="cst_platform_cause_cooling_fluid">1.冷却液减少,膨胀水壶无冷却液，系统有漏水\n2.冷却液温度传感器信号异常。</string>
+    <string name="cst_platform_effect_cooling_fluid">1.油耗增加\n2.动力下降。</string>
+
+    <string name="cst_platform_advice_cooling_fluid">1.定时更换/添加冷却液\n2.出现水温异常及时检查处理。</string>
+
+    <string name="cst_platform_scope_battery_voltage">正常范围 11.5v-15.0v</string>
+    <string name="cst_platform_cause_battery_voltage">蓄电池老化，或者在熄灭状态下车灯，音响未关，短时间内电量过大，蓄电量不足</string>
+    <string name="cst_platform_effect_battery_voltage">电池耗尽，导致车辆不能正常启动</string>
+    <string name="cst_platform_advice_battery_voltage">在启动状态下，充电一段时间，再观察蓄电池电量，或者就近的维修店进行专业检测</string>
+
+    <string name="cst_platform_exception_error">以下故障需要及时处理，如需帮助，请联系驾图车师傅</string>
+    <string name="cst_platform_exception_warn">以下故障对车辆没有直接伤害，如需疑问，请联系驾图车师傅</string>
+    <string name="cst_platform_failure_code">故障码</string>
+
+    <string name="cst_platform_no_cause">暂无明确的原因分析</string>
+    <string name="cst_platform_no_consequence">暂无可能导致的后果分析</string>
+    <string name="cst_platform_no_advice">驾图车师傅暂无处理建议</string>
+
+    <string name="cst_platform_detect_back">返回</string>
+    <string name="cst_platform_detect_emergency_fault">紧急故障</string>
+    <string name="cst_platform_detect_battery_voltage">电瓶电压</string>
+    <string name="cst_platform_detect_automobile_storage_battery">汽车蓄电池</string>
+    <string name="cst_platform_detect_battery_voltage_lower">电瓶电压过低</string>
+    <string name="cst_platform_detect_battery_voltage_higher">电瓶电压过高</string>
+    <string name="cst_platform_detect_car_data_has_abnormal">车辆数据有异常</string>
+    <string name="cst_platform_detect_general_failure">一般故障</string>
+    <string name="cst_platform_detect_cooling_fluid">冷却液</string>
+    <string name="cst_platform_detect_coolant_temperature">冷却液温度</string>
+    <string name="cst_platform_detect_vehicle_failure">车辆故障</string>
+    <string name="cst_platform_detect_something">检测到车辆有</string>
+    <string name="cst_platform_detect_general_failure_number">个一般故障</string>
+    <string name="cst_platform_detect_emergency_fault_number">个紧急故障</string>
+    <string name="cst_platform_detect_coolant_temperature_higher">冷却液温度偏高，请检查车辆状态</string>
+    <string name="cst_platform_detect_battery_voltage_more_higher">电瓶电压过高，请检查，以免造成电器损坏</string>
+    <string name="cst_platform_detect_battery_voltage_more_loewr">电瓶电压过低，请检查，以免无法点火</string>
+
+    <string name="cst_platform_condiiton_battery_voltage_capacity">你汽车蓄电池压力大小</string>
+    <string name="cst_platform_condiiton_total_mileage">从出厂到迄今为止，你车辆的所有行驶总里程数</string>
+    <string name="cst_platform_condiiton_total_fuel">从安装驾图盒子到现在，你爱车行驶所消耗的总燃油量</string>
+    <string name="cst_platform_condiiton_number_of_failures">你的爱车所产生的故障个数</string>
+    <string name="cst_platform_condiiton_total_failures_mileage">你的爱车出现故障码后车辆累计行驶里程</string>
+    <string name="cst_platform_condiiton_residual_oil_percentage">你爱车的油箱中当前剩余的油量百分比</string>
+    <string name="cst_platform_condiiton_remaining_oil">你爱车的邮箱中当前剩余的油量大小</string>
+    <string name="cst_platform_condiiton_rotating_laps">你爱车的发动机每分钟所转动的圈数</string>
+    <string name="cst_platform_condiiton_air_temperature">通过温度传感器采集到的进气口空气温度</string>
+    <string name="cst_platform_condiiton_coolant_temperature">通过温度传感器采集到的冷却液温度</string>
+    <string name="cst_platform_condiiton_environment_temperature">你爱车的车辆温度传感器采集到的室外环境温度</string>
+    <string name="cst_platform_condiiton_environmental_stress">你爱车的压力传感器采集到的当前室外环境压力大小值</string>
+    <string name="cst_platform_condiiton_fuel_pressures">你爱车中的燃油压力传感器采集到的燃油压力值</string>
+    <string name="cst_platform_condiiton_engine_air_inflow">你爱车的发动机空气流量计算器采集到的发动机进气量</string>
+    <string name="cst_platform_condiiton_throttle_position">通过节气门位置传感器采集到的节气门开度大小值，节气门开度越大说明汽车行驶速度越快</string>
+    <string name="cst_platform_condiiton_accelerator_pedal_position">通过油门踏板位置传感器采集到的油门踏板踩下角度大小值，油门踏板位置角度越大节气门开度越大</string>
+    <string name="cst_platform_condiiton_engine_running_time">你爱车发动机的单次点火到熄火的运行时间</string>
+    <string name="cst_platform_condiiton_engine_load">你爱车中发动机的负荷值大小，超过正常负荷值会减少发动机寿命，严重的可导致发动机停止运转或者部件损坏</string>
+    <string name="cst_platform_condiiton_fuel_revised">也称为长期燃油修正系数，是汽车厂商为了满足环保需求采取的控制措施</string>
+    <string name="cst_platform_condiiton_ignition_advance_angle">从点火时刻起到活塞到达压缩上止点，这段时间内曲轴转过的角度成为点火提前角</string>
+    <string name="cst_platform_condiiton_data_analysis">数据分析</string>
+
+
+    <string name="cst_platform_condiiton_batteryVoltage">电瓶电压(V)</string>
+    <string name="cst_platform_condiiton_mileage">总里程(km)</string>
+    <string name="cst_platform_condiiton_fuel">总耗油量(L)</string>
+    <string name="cst_platform_condiiton_malfunctionNum">发动机故障码个数(个)</string>
+    <string name="cst_platform_condiiton_troubleMileage">故障行驶里程(km)</string>
+    <string name="cst_platform_condiiton_perResidualFuel">剩余油量(%)</string>
+    <string name="cst_platform_condiiton_residualFuel">剩余油量(L)</string>
+    <string name="cst_platform_condiiton_rpm">发动机转速(rpm)</string>
+    <string name="cst_platform_condiiton_speed">车速度(km/h)</string>
+    <string name="cst_platform_condiiton_onflowCt">进气口温度(℃)</string>
+    <string name="cst_platform_condiiton_coolantCt">冷却液温度(℃)</string>
+    <string name="cst_platform_condiiton_environmentCt">车辆环境温度(℃)</string>
+    <string name="cst_platform_condiiton_airPressure">大气压力(Kpa)</string>
+    <string name="cst_platform_condiiton_fuelPressure">燃油压力(Kpa)</string>
+    <string name="cst_platform_condiiton_airFlow">空气流量(g/s)</string>
+    <string name="cst_platform_condiiton_tvp">节气门位置(%)</string>
+    <string name="cst_platform_condiiton_pedalPosition">油门踏板位置(%)</string>
+    <string name="cst_platform_condiiton_engineRuntime">发动机运行时间(min)</string>
+    <string name="cst_platform_condiiton_enginePayload">发动机负荷(%)</string>
+    <string name="cst_platform_condiiton_lfuelTrim">长期燃油修正值(%)</string>
+    <string name="cst_platform_condiiton_ciaa">点火提前角(°)</string>
+    <string name="cst_platform_happen_time">发生时间</string>
+
+    <string name="cst_platform_faiulre">故障</string>
+    <string name="cst_platform_faiulre_code">故障码</string>
+    <string name="cst_platform_chinese_define">中文定义：</string>
+
+    <string name="cst_platform_break_rule_unhandle">未处理违章</string>
+    <string name="cst_platform_break_rule_unit">个</string>
+    <string name="cst_platform_break_rule_deduct_marks">扣分</string>
+    <string name="cst_platform_break_rule_score">分</string>
+    <string name="cst_platform_break_rule_fine">罚款</string>
+    <string name="cst_platform_break_rule_rmb">元</string>
+    <string name="cst_platform_break_rule_helpful_hints">数据由第三方提供，请以实际处理为准</string>
+
+    <string name="cst_platform_report_day">日</string>
+    <string name="cst_platform_report_month">月</string>
+    <string name="cst_platform_report_year">年</string>
+    <string name="cst_platform_report_fragment_more">查看详情</string>
+    <string name="cst_platform_report_fragment_expense">大约费用</string>
+    <string name="cst_platform_report_fragment_oil_mass">耗油量</string>
+    <string name="cst_platform_report_fragment_litre">L</string>
+    <string name="cst_platform_report_fragment_mileage">总里程</string>
+    <string name="cst_platform_report_fragment_drive_time">驾驶时间</string>
+    <string name="cst_platform_report_fragment_ave_oil_mass">百公里油耗</string>
+    <string name="cst_platform_report_fragment_ave_speed">平均速度</string>
+    <string name="cst_platform_report_time_of_drive">开车天数</string>
+    <string name="cst_platform_report_max_mileage_time">最大里程日</string>
+    <string name="cst_platform_report_day_unit">天</string>
+</resources>
+
