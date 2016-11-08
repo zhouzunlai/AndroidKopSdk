@@ -55,3 +55,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile files('src/main/jniLibs/CstSDK_V1.4.1.1.jar')
 }
+
+apply from: '../jcenter-push.gradle'

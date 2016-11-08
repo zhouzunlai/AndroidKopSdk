@@ -8,3 +8,13 @@
 /build
 /captures
 /gradle
+app/libs/
+app/src/androidTest/
+app/src/test/
+cstonlibray/libs/
+cstonlibray/src/androidTest/
+cstonlibray/src/main/res/mipmap-hdpi/
+cstonlibray/src/main/res/mipmap-mdpi/
+cstonlibray/src/test/
+jcenter-push.gradle
+projectFilesBackup/
